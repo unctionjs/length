@@ -1,12 +1,36 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import {{NAME}} from "./source.js"
+import length from "./source.js"
 
 test(({same, end}) => {
   same(
-    {{NAME}}(true),
-    false
+    length([1, 2, 3]),
+    3
+  )
+
+  end()
+})
+test(({same, end}) => {
+  same(
+    length({aaa: "aaa", bbb: "bbb"}),
+    2
+  )
+
+  end()
+})
+test(({same, end}) => {
+  same(
+    length(new Map([["aaa", "aaa"], ["bbb", "bbb"]])),
+    2
+  )
+
+  end()
+})
+test(({same, end}) => {
+  same(
+    length(new Set([1, 2, 3])),
+    3
   )
 
   end()
