@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/length#readme",
   "repository": "github:unctionjs/length",
   "bugs": "https://github.com/unctionjs/length/issues",
-  "main": "transpiled/source.js",
+  "main": "transpiled/index.js",
   "nyc": {
     "require": [
       "babel-register"
@@ -59,6 +59,5 @@
   },
   "dependencies": {
     "@unction/values": "3.0.0"
-  },
-  "main": "transpiled/index.js"
+  }
 }
