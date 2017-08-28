@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> IterableType -> number
+> FunctorType -> number
 
 Returns the number of values contained in the iterable.
 
