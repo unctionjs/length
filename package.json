@@ -57,7 +57,7 @@
     "tap": "10.7.2"
   },
   "dependencies": {
-    "@unction/values": "3.35.0"
+    "@unction/values": "3.36.0"
   },
   "files": [
     "transpiled/index.js"
