@@ -1,6 +1,6 @@
 {
   "name": "@unction/length",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Returns the number of values contained in the iterable.",
   "keywords": [
     "unction",
