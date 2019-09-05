@@ -4,9 +4,9 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> FunctorType => number
+> EnumerableType<A> => number
 
-Returns the number of values contained in the iterable.
+Returns the number of values contained in the enumerable.
 
 ``` javascript
 length([1, 2, 3]) // 3
