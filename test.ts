@@ -1,5 +1,5 @@
 
-import length from "./index.ts";
+import length from "./index";
 
 test(() => {
   expect(length([1, 2, 3])).toEqual(3);
