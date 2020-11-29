@@ -1,6 +1,5 @@
 import values from "@unction/values";
-import {EnumerableType} from "./types";
 
-export default function length<A> (enumerable: EnumerableType<A>): number {
+export default function length<A> (enumerable: Array<A> | Set<A> | RecordType<unknown, A> | string): number {
   return enumerable.length || enumerable.size || values(enumerable).length;
 }

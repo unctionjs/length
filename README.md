@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> EnumerableType<A> => number
+> Array<A> | Set<A> | RecordType<unknown, A> | string => number
 
 Returns the number of values contained in the enumerable.
 
